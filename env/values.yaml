@@ -23,6 +23,7 @@ expose:
     domain: 35.240.35.161.nip.io
     exposer: Ingress
     http: "true"
+    urlTemplate: "{{.Service}}-{{.Namespace}}.{{.Domain}}"
 jenkins:
   Servers:
     Global:
