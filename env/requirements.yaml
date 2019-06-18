@@ -10,3 +10,6 @@ dependencies:
 - name: nodey115
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.5
+- name: nodey121
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 0.0.1
